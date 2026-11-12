@@ -1,0 +1,52 @@
+{
+  "name": "grewtube",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@googleapis/youtube": "^20.0.0",
+    "@tensorflow/tfjs": "^4.21.0",
+    "axios": "^1.7.7",
+    "base-64": "^1.0.0",
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.6.0",
+    "dotenv": "^16.4.5",
+    "googleapis": "^143.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.438.0",
+    "mongodb": "^6.8.1",
+    "mongoose": "^8.6.1",
+    "next": "^14.2.35",
+    "next-auth": "^4.24.7",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-google-charts": "^5.2.1",
+    "react-icons": "^5.3.0",
+    "recharts": "^2.12.7",
+    "stripe": "^16.10.0"
+  },
+  "devDependencies": {
+    "@types/base-64": "^1.0.2",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie": "^0.6.0",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "^14.2.35",
+    "file-loader": "^6.2.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "webpack": "^5.94.0"
+  }
+}
